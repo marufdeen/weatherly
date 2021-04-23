@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.form-custom {
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.form-custom::placeholder {
+    font-size: 1rem;
+}
+
+.bg-custom {
+    background-color: #fff;
+}
+
+.bg-gradient {
+    /* background: linear-gradient(135deg, #7b4397, #dc2430); */
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    /* background: linear-gradient(135deg, #72a4df, hsl(218, 80%, 47%));
+    box-shadow: 0px 8px 16px #9cc7f7c9; */
+}
+
+.bg-gradient-list {
+    background-image: linear-gradient(white, #e9ecef 60%, #e3e7eb);
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.bg-change {
+    background-image: linear-gradient(#88c149, #73a839 60%, #699934);
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.text-header {
+    color: #0c1f42;
+}
+
+.btn-custom {
+    background: linear-gradient(135deg, #0074f8, hsl(218, 80%, 40%));
+    border: none;
+    box-shadow: 0px 4px 8px #c6e1ffbe;
+}
+
+.btn-close {
+    background: linear-gradient(135deg, hsl(0, 100%, 49%), hsl(0, 75%, 41%));
+    border: none;
+    box-shadow: 0px 4px 8px #facbc5;
+}
+
+.bg-nav {
+    /* background-color: #2a7ce7; */
+    /* background: linear-gradient(-135deg, #4d85fd, #0438c7); */
+    background: linear-gradient(135deg, #0030b3, #618cff);
+}
+
+.brand-logo {
+    width: 160px;
+}
+
+.sub-text {
+    font-family: 'Montserrat';
+}
+
+.bg-footer {
+    background-color: #333;
+}
+
+
+/* styling the image */
+
+.img-info {
+    height: 350px;
+}
+
+
+/* -----------------contact form styling */
+
+.btn-submit {
+    /* background-color: #618cff; */
+    /* background: linear-gradient(135deg, #1146d6, #032992); */
+    background: #5e7ccc;
+    border: none;
+}
+
+.btn-submit:hover {
+    background: #618cff;
+}
+
+
+/* backgorund of the info i the index page */
+
+.bg-city {
+    background: url('../img/nature_2.jpg') no-repeat fixed center center/cover;
+    position: relative;
+    height: 120px;
+}
+
+.bg-city-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* city in the home page */
+
+.city-img {
+    width: 200px;
+}
+
+.city-name {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+
+
+/* styling of text */
+
+.text-gray {
+    color: #333;
+}
+
+
+/* social-media-handles */
+
+.bg-social-media {
+    background-color: #0074f8;
+}
+
+
+/* font */
+
+.font-montserrat {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+
+/* .contact-img {
+    display: inline-block;
+    width: 400px;
+} */
+
+
+/* .form-custom:focus .card-edit {
+    background-color: #f4f4f4;
+    color: #333;
+} */
